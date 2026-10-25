@@ -206,8 +206,8 @@ export default function Header() {
 const navItems = [
   { name: "Home", link: "home" },
   { name: "About", link: "about" },
+  { name: "Experience", link: "experience" },
   { name: "Tech Stack", link: "techstack" },
   { name: "Projects", link: "projects" },
-  { name: "Experience", link: "experience" },
   { name: "Contact", link: "contacts" },
 ]
