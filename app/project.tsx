@@ -369,7 +369,7 @@ const projectList: ProjectItem[] = [
     title: "Inkluvy",
     role: "Frontend Developer",
     category: "Web Platform & a11y",
-    period: "Feb 2026 – Present",
+    period: "July 2026 – Aug 2026",
     image: "/images/project-inkluvy.png",
     imageFit: "cover",
     shortDescription:
