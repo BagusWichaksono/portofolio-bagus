@@ -96,19 +96,9 @@ export default function Hero() {
             <div className="absolute bottom-0 inset-x-0 h-24 sm:h-32 bg-gradient-to-t from-background via-background/70 to-transparent pointer-events-none" />
           </div>
         </FadeDown>
-
-        {/* 4. Vertical "SCROLL DOWN" Indicator (Desktop, Matching Reference) */}
-        <div className="hidden lg:flex absolute right-8 xl:right-16 bottom-8 z-20 flex-col items-center gap-3">
-          <div className="w-[1.5px] h-14 bg-card-border overflow-hidden relative">
-            <div className="w-full h-1/2 bg-text-primary animate-pulse" />
-          </div>
-          <span className="text-[10px] font-bold tracking-[0.28em] uppercase text-text-secondary [writing-mode:vertical-rl] opacity-75">
-            Scroll Down
-          </span>
-        </div>
       </div>
 
-      {/* 5. Hero Information, Role & Action Links (Below Portrait) */}
+      {/* 4. Hero Information, Role & Action Links (Below Portrait) */}
       <div className="relative z-20 w-full max-w-3xl mx-auto px-6 text-center mt-2 flex flex-col items-center">
         <FadeUp delay={0.2}>
           <div className="flex flex-col items-center gap-4">
