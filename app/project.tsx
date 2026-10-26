@@ -348,7 +348,7 @@ const projectList: ProjectItem[] = [
     title: "TesYuk",
     role: "Fullstack Developer",
     category: "Web App & CBT",
-    period: "Nov 2024 – Dec 2024",
+    period: "Mar 2026 – July 2026",
     image: "/images/project-tesyuk.png",
     imageFit: "cover",
     shortDescription:
