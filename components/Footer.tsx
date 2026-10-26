@@ -10,9 +10,6 @@ export default function Footer() {
           <p className="text-sm font-semibold text-text-primary">
             &copy; {currentYear} Bagus Wichaksono Amanulloh. All rights reserved.
           </p>
-          <p className="text-xs font-normal text-text-secondary mt-0.5 opacity-75">
-            D-IV Informatics Engineering — Politeknik Negeri Malang
-          </p>
         </div>
         <div className="flex flex-wrap justify-center items-center gap-6">
           <a
