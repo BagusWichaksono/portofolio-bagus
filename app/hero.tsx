@@ -12,7 +12,6 @@ export default function Hero() {
   const roles = useMemo(
     () => [
       "Mobile & Web Developer",
-      "Fullstack Software Engineer",
       "Frontend & UI/UX Developer",
     ],
     [],
