@@ -12,8 +12,8 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || "https://baguswichaksono.dev"),
   title: {
-    default: "Bagus Wichaksono Amanulloh | Portfolio",
-    template: "%s | Bagus Wichaksono Portfolio",
+    default: "Bagus Portfolio",
+    template: "%s | Bagus Portfolio",
   },
   description:
     "Personal portfolio of Bagus Wichaksono Amanulloh. Informatics Engineering student at Politeknik Negeri Malang specializing in mobile and web development (Flutter, React, Laravel).",
@@ -37,30 +37,33 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "/",
-    title: "Bagus Wichaksono Amanulloh | Portfolio",
+    title: "Bagus Portfolio",
     description:
       "Personal portfolio of Bagus Wichaksono Amanulloh. Informatics Engineering student at Politeknik Negeri Malang specializing in mobile and web development.",
-    siteName: "Bagus Wichaksono Portfolio",
+    siteName: "Bagus Portfolio",
     images: [
       {
         url: "/images/bagus-profile.jpg",
         width: 1200,
         height: 630,
-        alt: "Bagus Wichaksono Amanulloh Portfolio",
+        alt: "Bagus Portfolio",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Bagus Wichaksono Amanulloh | Portfolio",
+    title: "Bagus Portfolio",
     description:
       "Personal portfolio of Bagus Wichaksono Amanulloh. Informatics Engineering student at Politeknik Negeri Malang.",
     images: ["/images/bagus-profile.jpg"],
   },
   icons: {
-    icon: "/images/bagus-profile.jpg",
-    shortcut: "/images/bagus-profile.jpg",
-    apple: "/images/bagus-profile.jpg",
+    icon: [
+      { url: "/icon.svg", type: "image/svg+xml" },
+      { url: "/favicon.ico", sizes: "any" },
+    ],
+    shortcut: "/icon.svg",
+    apple: "/apple-icon.png",
   },
   alternates: {
     canonical: "/",
